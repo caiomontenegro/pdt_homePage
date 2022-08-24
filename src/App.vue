@@ -1,6 +1,6 @@
 <template>
   <the-header></the-header>
-  <the-signup></the-signup>
+  <!-- <the-signup></the-signup> -->
   <list-content></list-content>
   <the-footer></the-footer>
 </template>
