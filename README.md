@@ -1,3 +1,10 @@
+First prototype:
+
+- Active the Signup.vue component in app.vue
+- Change the TheHeader.vue component content.
+
+
+
 # pdt_homePage
 
 This template should help get you started developing with Vue 3 in Vite.
