@@ -47,7 +47,7 @@
                     {{ post.date }}
                   </time>
                   <span aria-hidden="true"> &middot; </span>
-                  <span> {{ post.readingTime }} read </span>
+                  <span> {{ post.readingTime }} Ler </span>
                 </div>
               </div>
             </div>
