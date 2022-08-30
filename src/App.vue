@@ -2,6 +2,7 @@
   <the-header></the-header>
   <!-- <the-signup></the-signup> -->
   <cta-container></cta-container>
+  <team-container></team-container>
   <list-content></list-content>
   <signup-section></signup-section>
   <blog-section></blog-section>
@@ -18,6 +19,7 @@ import CtaContainer from '@/components/layouts/CtaContainer.vue'
 import FaqContainer from '@/components/layouts/FaqContainer.vue'
 import SignupSection from '@/components/layouts/SignupSection.vue'
 import BlogSection from '@/components/layouts/BlogSection.vue'
+import TeamContainer from '@/components/layouts/TeamContainer.vue'
 
 export default {
   components: {
@@ -28,7 +30,8 @@ export default {
     TheFooter,
     FaqContainer,
     SignupSection,
-    BlogSection
+    BlogSection,
+    TeamContainer,
   }
 }
 </script>
