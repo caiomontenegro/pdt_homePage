@@ -5,7 +5,7 @@
   <team-container></team-container>
   <list-content></list-content>
   <signup-section></signup-section>
-  <blog-section></blog-section>
+  <course-section></course-section>
   <faq-container></faq-container>
   <the-footer></the-footer>
 </template>
@@ -18,7 +18,7 @@ import TheFooter from '@/components/layouts/TheFooter.vue'
 import CtaContainer from '@/components/layouts/CtaContainer.vue'
 import FaqContainer from '@/components/layouts/FaqContainer.vue'
 import SignupSection from '@/components/layouts/SignupSection.vue'
-import BlogSection from '@/components/layouts/BlogSection.vue'
+import CourseSection from '@/components/layouts/BlogSection.vue'
 import TeamContainer from '@/components/layouts/TeamContainer.vue'
 
 export default {
@@ -30,7 +30,7 @@ export default {
     TheFooter,
     FaqContainer,
     SignupSection,
-    BlogSection,
+    CourseSection,
     TeamContainer,
   }
 }

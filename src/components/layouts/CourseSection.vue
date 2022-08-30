@@ -5,8 +5,8 @@
     </div>
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl">Blog do Trader</h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Acompanhe e saiba no que nossos especialistas estão focando.</p>
+        <h2 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl">Cursos</h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Acompanhe e saiba no que nossos especialistas estão ensinando.</p>
       </div>
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
         <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -61,9 +61,9 @@
 <script setup>
 const posts = [
   {
-    title: 'Criptomoedas em crash?',
+    title: 'Criptomoedas',
     href: '#',
-    category: { name: 'Artigo', href: '#' },
+    category: { name: 'E-book + Video-aulas', href: '#' },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
     date: 'Mar 16, 2020',
@@ -79,9 +79,9 @@ const posts = [
     },
   },
   {
-    title: 'Como configurar o seu Setup',
+    title: 'Introdução a análises',
     href: '#',
-    category: { name: 'Video', href: '#' },
+    category: { name: 'E-book + Video-aulas', href: '#' },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
     date: 'Mar 10, 2020',
@@ -99,7 +99,7 @@ const posts = [
   {
     title: 'Gerenciamento de Capital',
     href: '#',
-    category: { name: 'Estudo de Caso', href: '#' },
+    category: { name: 'E-book + Video-aulas', href: '#' },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
     date: 'Feb 12, 2020',
