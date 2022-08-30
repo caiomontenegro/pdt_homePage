@@ -3,7 +3,7 @@
     <h2 class="uppercase text-3xl font-semibold text-indigo-800">
       O portal do trader
     </h2>
-    <p class="text-xl text-gray-800 px-16">
+    <p class="text-xl text-gray-800 px-16 md:px-96">
       O Portal do Trader é uma plataforma educacional para traders e
       investidores que reuniu diversos especialistas e ensinou mais de 300 mil
       alunos ao longo de 5 anos. Oferecemos 16 cursos gratuitos completos,
@@ -32,7 +32,7 @@
           >
             Estamos aqui para ajudar
           </p>
-          <p class="mt-3 text-lg text-gray-800">
+          <p class="mt-3 text-xl text-gray-800">
             Seja para operar Day Trade, Swing Trade ou investir a longo prazo,
             nosso time de traders ensina as principais técnicas utilizadas no
             mercado como Price Action, Análise Técnica e Tape Reading em cursos
@@ -40,6 +40,23 @@
             experiente, será mais que bem-vindo para aprender o que quiser sobre
             trading e Bolsa de Valores.
           </p>
+          <div
+            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-4 border-gray-300 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8"
+          >
+            <p class="font-lato italic md:order-1 lg:text-md">
+              "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!"
+            </p>
+            <div class="flex flex-col items-center md:mr-6">
+              <div
+                class="w-24 overflow-hidden rounded-full border border-4 border-gray-300"
+              >
+                <img src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02" alt="Foto de Lucas A.">
+              </div>
+              <span class="text-center font-lato font-bold lg:text-md">
+                Lucas A.
+              </span>
+            </div>
+          </div>
           <div class="mt-8">
             <div class="inline-flex rounded-md shadow">
               <a
