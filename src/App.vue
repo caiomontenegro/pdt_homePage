@@ -1,11 +1,11 @@
 <template>
   <the-header></the-header>
   <cta-container></cta-container>
-  <team-container></team-container>
-  <blog-container></blog-container>
   <list-content></list-content>
+  <team-container></team-container>
+  <course-container></course-container>
+  <blog-container></blog-container>
   <signup-section></signup-section>
-  <course-section></course-section>
   <faq-container></faq-container>
   <the-footer></the-footer>
 </template>

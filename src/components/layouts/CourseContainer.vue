@@ -6,7 +6,7 @@
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl">Cursos</h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Acompanhe e saiba no que nossos especialistas estão ensinando.</p>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Acompanhe e saiba um pouco mais sobre o que o Portal do Trader oferece:</p>
       </div>
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
         <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
