@@ -1,4 +1,3 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto">
@@ -54,6 +53,7 @@
                 <a
                   href="#"
                   class="font-medium text-indigo-600 hover:text-indigo-500"
+                  @click="activeSignInModal"
                   >Entrar</a
                 >
               </div>
@@ -114,7 +114,7 @@
         <main
           class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
         >
-        <signin-form class="right-[-150px] top-[78px]"></signin-form>
+        <signin-form :class="{hidden: signinModal}"></signin-form>
           <div class="sm:text-center lg:text-left">
             <h1
               class="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight"
@@ -185,6 +185,17 @@ import SigninForm from '@/components/forms/SigninForm.vue'
 export default {
   components: {
     SigninForm
+  },
+  data() {
+    return {
+      signinModal: false
+    }
+  },
+  methods: {
+    activeSignInModal() {
+      this.signinModal = !this.signinModal
+      console.log(this.signinModal)
+    }
   }
 }
 </script>

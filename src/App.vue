@@ -1,6 +1,5 @@
 <template>
   <the-header></the-header>
-  <!-- <the-signup></the-signup> -->
   <cta-container></cta-container>
   <team-container></team-container>
   <blog-container></blog-container>
@@ -13,7 +12,6 @@
 
 <script>
 import TheHeader from '@/components/layouts/TheHeader.vue'
-import TheSignup from '@/components/layouts/TheSignup.vue'
 import ListContent from '@/components/layouts/ListContent.vue'
 import TheFooter from '@/components/layouts/TheFooter.vue'
 import CtaContainer from '@/components/layouts/CtaContainer.vue'
@@ -25,7 +23,6 @@ import BlogContainer from '@/components/layouts/BlogContainer.vue'
 export default {
   components: {
     TheHeader,
-    TheSignup,
     ListContent,
     CtaContainer,
     TheFooter,

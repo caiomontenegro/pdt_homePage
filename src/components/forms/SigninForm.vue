@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute">
+  <div class="absolute right-[-150px] top-[78px]">
     <div class="sm:mx-auto sm:w-full sm:max-w-md">
       <img
         class="mx-auto h-12 w-auto"
@@ -156,3 +156,8 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+}
+</script>
