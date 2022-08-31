@@ -3,7 +3,7 @@
     <div class="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
       <div>
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Publicações recentes</h2>
-        <p class="mt-3 text-xl text-gray-500 sm:mt-4">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+        <p class="mt-3 text-xl text-gray-500 sm:mt-4">Fique por dentro do que os nossos especialistas estão falando:</p>
       </div>
       <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
         <div v-for="post in posts" :key="post.title">
