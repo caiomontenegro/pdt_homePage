@@ -6,7 +6,7 @@
         <h2
           class="text-center text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl sm:tracking-tight"
         >
-          Frequently asked questions
+          Perguntas Frequentes
         </h2>
         <dl class="mt-6 space-y-6 divide-y divide-gray-200">
           <Disclosure
