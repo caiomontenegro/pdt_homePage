@@ -12,6 +12,10 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
       },
+      fontFamily: {
+        'michroma': ['Michroma', 'sans-serif'],
+        'orbitron': ['Orbitron', 'sans-serif']
+      },
     },
   },
   plugins: [
