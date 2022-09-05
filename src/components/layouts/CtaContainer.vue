@@ -3,7 +3,7 @@
     <h2 class="uppercase text-3xl font-semibold text-indigo-800">
       O portal do trader
     </h2>
-    <p class="text-xl text-gray-800 px-16 md:px-96">
+    <p class="text-xl text-gray-800 px-16 2xl:px-96">
       O Portal do Trader é uma plataforma educacional para traders e
       investidores que reuniu diversos especialistas e ensinou mais de 300 mil
       alunos ao longo de 5 anos. Oferecemos 16 cursos gratuitos completos,
@@ -13,7 +13,7 @@
   </div>
   <div class="relative bg-gray-100">
     <div
-      class="h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 md:left-8"
+      class="h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 "
     >
       <img
         class="w-full h-full object-cover"
@@ -28,7 +28,7 @@
             APRENDA AS MELHORES TÉCNICAS
           </h2>
           <p
-            class="mt-2 text-gray-800 text-3xl font-bold tracking-tight sm:text-4xl sm:tracking-tight"
+            class="mt-2 text-indigo-900 text-3xl font-bold tracking-tight sm:text-4xl sm:tracking-tight"
           >
             Estamos aqui para ajudar
           </p>
@@ -41,14 +41,14 @@
             trading e Bolsa de Valores.
           </p>
           <div
-            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-4 border-gray-300 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8"
+            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-1 text-white border-gray-100 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8 bg-gradient-to-tr from-indigo-900 to-emerald-400"
           >
             <p class="font-lato italic md:order-1 lg:text-md">
               "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!"
             </p>
             <div class="flex flex-col items-center md:mr-6">
               <div
-                class="w-24 overflow-hidden rounded-full border border-4 border-gray-300"
+                class="w-24 overflow-hidden rounded-full border border-2 border-gray-100"
               >
                 <img src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02" alt="Foto de Lucas A.">
               </div>
@@ -61,13 +61,9 @@
             <div class="inline-flex rounded-md shadow">
               <a
                 href="#"
-                class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+                class="inline-flex items-center justify-center px-5 py-3 border-2 border-gray-700 bg-indigo-800 text-base font-medium rounded-md text-gray-200 hover:bg-gray-800 hover:border-indigo-600 duration-300"
               >
                 Visite nossa sala ao vivo
-                <ExternalLinkIcon
-                  class="-mr-1 ml-3 h-5 w-5 text-gray-400"
-                  aria-hidden="true"
-                />
               </a>
             </div>
           </div>
