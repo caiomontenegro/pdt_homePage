@@ -1,11 +1,11 @@
 <template>
-  <div class="py-12 bg-white">
+  <div class="py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p
-          class="mt-2 text-3xl leading-8 font-bold tracking-tight text-indigo-800 sm:text-4xl sm:tracking-tight"
+          class="mt-2 text-3xl leading-8 tracking-tight text-indigo-900 sm:text-4xl sm:tracking-tight"
         >
-          MILHARES DE TRADERS FREQUENTAM O PORTAL DIARIAMENTE?
+          MILHARES DE <span class="font-bold">TRADERS</span> FREQUENTAM O <span class="font-bold">PORTAL</span> DIARIAMENTE?
         </p>
         <p class="mt-4 max-w-2xl text-xl text-gray-900 lg:mx-auto">
           Nossos traders profissionais estruturaram toda a jornada de
