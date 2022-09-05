@@ -2,13 +2,12 @@
   <div class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
-        <h2 class="text-lg text-indigo-600 font-semibold">Transactions</h2>
         <p
-          class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight"
+          class="mt-2 text-3xl leading-8 font-bold tracking-tight text-indigo-800 sm:text-4xl sm:tracking-tight"
         >
           MILHARES DE TRADERS FREQUENTAM O PORTAL DIARIAMENTE?
         </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+        <p class="mt-4 max-w-2xl text-xl text-gray-900 lg:mx-auto">
           Nossos traders profissionais estruturaram toda a jornada de
           aprendizado em um plano, com todas as etapas que você precisa passar
           para conquistar seus objetivos no mercado.
@@ -22,7 +21,7 @@
           <div v-for="feature in features" :key="feature.name" class="relative">
             <dt>
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-emerald-400 text-indigo-800 border-2 border-indigo-700"
               >
                 <component
                   :is="feature.icon"
@@ -30,11 +29,11 @@
                   aria-hidden="true"
                 />
               </div>
-              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+              <p class="ml-16 text-lg leading-6 font-medium text-indigo-800">
                 {{ feature.name }}
               </p>
             </dt>
-            <dd class="mt-2 ml-16 text-base text-gray-500">
+            <dd class="mt-2 ml-16 text-base text-gray-900">
               {{ feature.description }}
             </dd>
           </div>
