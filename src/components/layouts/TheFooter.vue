@@ -1,19 +1,19 @@
 <template>
-  <footer class="bg-white" aria-labelledby="footer-heading">
+  <footer class="bg-[length:300%] bg-[url('https://res.cloudinary.com/portal-do-trader/image/fetch/v1661518893/https://res.cloudinary.com/portal-do-trader/image/upload/f_auto%2Ct_ghost-blog-image/v1/blog-images/2022/08/o-que-e-robo-arbitragem-bitcoin.jpg')]" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-base font-medium text-gray-900">
+              <h3 class="text-base font-medium text-emerald-400">
                 Portal do Trader
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-base text-gray-500 hover:text-gray-900"
+                    class="text-base text-gray-300 hover:text-gray-100"
                   >
                     {{ item.name }}
                   </a>
@@ -21,12 +21,12 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h3 class="text-base font-medium text-gray-900">Aprenda</h3>
+              <h3 class="text-base font-medium text-emerald-400">Aprenda</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-base text-gray-500 hover:text-gray-900"
+                    class="text-base text-gray-300 hover:text-gray-100"
                   >
                     {{ item.name }}
                   </a>
@@ -36,12 +36,12 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-base font-medium text-gray-900">Plano TNT</h3>
+              <h3 class="text-base font-medium text-emerald-400">Plano TNT</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-base text-gray-500 hover:text-gray-900"
+                    class="text-base text-gray-300 hover:text-gray-100"
                   >
                     {{ item.name }}
                   </a>
@@ -49,12 +49,12 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h3 class="text-base font-medium text-gray-900">Blog</h3>
+              <h3 class="text-base font-medium text-emerald-400">Blog</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-base text-gray-500 hover:text-gray-900"
+                    class="text-base text-gray-300 hover:text-gray-100"
                   >
                     {{ item.name }}
                   </a>
@@ -65,7 +65,7 @@
         </div>
         <div class="mt-8 xl:mt-0">
           <h3 class="text-base font-medium text-gray-900">Se inscreva</h3>
-          <p class="mt-4 text-base text-gray-500">
+          <p class="mt-4 text-base text-gray-200">
             Receba todas as nossas atualizações.
           </p>
           <form class="mt-4 sm:flex sm:max-w-md">
@@ -98,7 +98,7 @@
             v-for="item in navigation.social"
             :key="item.name"
             :href="item.href"
-            class="text-gray-400 hover:text-gray-500"
+            class="text-gray-400 hover:text-gray-200"
           >
             <span class="sr-only">{{ item.name }}</span>
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />

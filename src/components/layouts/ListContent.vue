@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12">
+  <div class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p
@@ -21,11 +21,11 @@
           <div v-for="feature in features" :key="feature.name" class="relative">
             <dt>
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-emerald-400 text-indigo-800 border-2 border-indigo-700"
+                class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-800 text-emerald-400 border-2 border-emerald-400"
               >
                 <component
                   :is="feature.icon"
-                  class="h-6 w-6"
+                  class="h-8 w-8"
                   aria-hidden="true"
                 />
               </div>
