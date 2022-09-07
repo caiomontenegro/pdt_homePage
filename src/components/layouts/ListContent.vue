@@ -21,7 +21,7 @@
           <div v-for="feature in features" :key="feature.name" class="relative">
             <dt>
               <div
-                class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-800 text-emerald-400 border-2 border-emerald-400"
+                class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-blue-900 text-emerald-400 border-2 border-emerald-400"
               >
                 <component
                   :is="feature.icon"
@@ -29,7 +29,7 @@
                   aria-hidden="true"
                 />
               </div>
-              <p class="ml-16 text-lg leading-6 font-medium text-indigo-800">
+              <p class="ml-16 text-lg leading-6 font-medium text-blue-900">
                 {{ feature.name }}
               </p>
             </dt>
