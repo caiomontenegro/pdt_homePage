@@ -3,6 +3,7 @@
   <cta-container></cta-container>
   <list-content></list-content>
   <team-container></team-container>
+  <cta-component></cta-component>
   <course-container></course-container>
   <blog-container></blog-container>
   <signup-section></signup-section>
@@ -19,6 +20,7 @@ import FaqContainer from '@/components/layouts/FaqContainer.vue'
 import CourseContainer from '@/components/layouts/CourseContainer.vue'
 import TeamContainer from '@/components/layouts/TeamContainer.vue'
 import BlogContainer from '@/components/layouts/BlogContainer.vue'
+import CtaComponent from '@/components/layouts/CtaComponent.vue'
 
 export default {
   components: {
@@ -29,7 +31,8 @@ export default {
     FaqContainer,
     CourseContainer,
     TeamContainer,
-    BlogContainer
+    BlogContainer,
+    CtaComponent
   }
 }
 </script>
