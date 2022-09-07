@@ -2,13 +2,13 @@
 <template>
   <div class="bg-gray-50">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+      <div class="max-w-3xl mx-auto divide-y-2 divide-blue-900">
         <h2
-          class="text-center text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl sm:tracking-tight"
+          class="text-center text-3xl tracking-tight font-bold text-blue-900 sm:text-4xl sm:tracking-tight"
         >
           Perguntas Frequentes
         </h2>
-        <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+        <dl class="mt-6 space-y-6 divide-y divide-emerald-400">
           <Disclosure
             as="div"
             v-for="faq in faqs"
@@ -18,9 +18,9 @@
           >
             <dt class="text-lg">
               <DisclosureButton
-                class="text-left w-full flex justify-between items-start text-gray-400"
+                class="text-left w-full flex justify-between items-start text-blue-900"
               >
-                <span class="font-medium text-gray-900">
+                <span class="font-medium text-blue-900">
                   {{ faq.question }}
                 </span>
                 <span class="ml-6 h-7 flex items-center">
@@ -35,7 +35,7 @@
               </DisclosureButton>
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
-              <p class="text-base text-gray-500">
+              <p class="text-base text-gray-900">
                 {{ faq.answer }}
               </p>
             </DisclosurePanel>
