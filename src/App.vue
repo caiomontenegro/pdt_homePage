@@ -8,6 +8,7 @@
   <blog-container></blog-container>
   <signup-section></signup-section>
   <faq-container></faq-container>
+  <cta-component></cta-component>
   <the-footer></the-footer>
 </template>
 
