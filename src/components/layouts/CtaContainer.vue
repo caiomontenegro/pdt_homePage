@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col text-center p-16 space-y-8 bg-gray-100">
-    <h2 class="uppercase text-3xl font-semibold text-indigo-800">
+    <h2 class="uppercase text-3xl font-semibold text-blue-900">
       O portal do trader
     </h2>
     <p class="text-xl text-gray-800 px-16 2xl:px-96">
@@ -24,11 +24,11 @@
     <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
       <div class="md:ml-auto md:w-1/2 md:pl-10">
         <div class="md:ml-8">
-          <h2 class="text-lg font-semibold text-indigo-800">
+          <h2 class="text-lg font-semibold text-blue-900">
             APRENDA AS MELHORES TÉCNICAS
           </h2>
           <p
-            class="mt-2 text-indigo-900 text-3xl font-bold tracking-tight sm:text-4xl sm:tracking-tight"
+            class="mt-2 text-blue-900 text-3xl font-bold tracking-tight sm:text-4xl sm:tracking-tight"
           >
             Estamos aqui para ajudar
           </p>
@@ -41,7 +41,7 @@
             trading e Bolsa de Valores.
           </p>
           <div
-            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-1 text-white border-gray-100 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8 bg-gradient-to-tr from-indigo-900 to-emerald-400"
+            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-1 text-white border-gray-100 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8 bg-gradient-to-tr from-blue-900 to-emerald-400"
           >
             <p class="font-lato italic md:order-1 lg:text-md">
               "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!"
@@ -61,7 +61,7 @@
             <div class="inline-flex rounded-md shadow">
               <a
                 href="#"
-                class="inline-flex items-center justify-center px-5 py-3 border-2 border-gray-700 bg-indigo-800 text-base font-medium rounded-md text-gray-200 hover:bg-gray-800 hover:border-indigo-600 duration-300"
+                class="inline-flex items-center justify-center px-5 py-3 border-2 border-gray-700 bg-blue-900 text-base font-medium rounded-md text-gray-200 hover:bg-gray-800 hover:border-indigo-600 duration-300"
               >
                 Visite nossa sala ao vivo
               </a>
