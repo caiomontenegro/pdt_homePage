@@ -1,9 +1,9 @@
 <template>
   <div class="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
-    <div class="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
+    <div class="relative mx-auto max-w-lg divide-y-4 divide-emerald-400 lg:max-w-7xl">
       <div>
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Publicações recentes</h2>
-        <p class="mt-3 text-xl text-gray-500 sm:mt-4">Fique por dentro do que os nossos especialistas estão falando:</p>
+        <h2 class="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">Publicações recentes</h2>
+        <p class="mt-3 text-xl text-gray-900 sm:mt-4">Fique por dentro do que os nossos especialistas estão falando:</p>
       </div>
       <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
         <div v-for="post in posts" :key="post.title">
@@ -13,8 +13,8 @@
             </a>
           </div>
           <a :href="post.href" class="mt-4 block">
-            <p class="text-xl font-semibold text-gray-900">{{ post.title }}</p>
-            <p class="mt-3 text-base text-gray-500">{{ post.description }}</p>
+            <p class="text-xl font-semibold text-blue-900">{{ post.title }}</p>
+            <p class="mt-3 text-base text-gray-900">{{ post.description }}</p>
           </a>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
@@ -24,10 +24,10 @@
               </a>
             </div>
             <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
+              <p class="text-sm font-medium text-blue-900">
                 <a :href="post.author.href">{{ post.author.name }}</a>
               </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
+              <div class="flex space-x-1 text-sm text-gray-900">
                 <time :datetime="post.datetime">{{ post.date }}</time>
                 <span aria-hidden="true">&middot;</span>
                 <span>{{ post.readingTime }} read</span>
