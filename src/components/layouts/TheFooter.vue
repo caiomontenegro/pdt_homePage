@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="mt-8 xl:mt-0">
-          <h3 class="text-base font-medium text-gray-900">Se inscreva</h3>
+          <h3 class="text-base font-medium text-emerald-400">Se inscreva</h3>
           <p class="mt-4 text-base text-gray-200">
             Receba todas as nossas atualizações.
           </p>
