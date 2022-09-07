@@ -5,31 +5,31 @@
     </div>
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl">Cursos</h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Acompanhe e saiba um pouco mais sobre o que o Portal do Trader oferece:</p>
+        <h2 class="text-3xl tracking-tight font-bold text-blue-900 sm:text-4xl">Cursos</h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">Acompanhe e saiba um pouco mais sobre o que o Portal do Trader oferece:</p>
       </div>
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-        <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden border border-emerald-400">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" :src="post.imageUrl" alt="" />
           </div>
-          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1 p-6 flex flex-col justify-between bg-gradient-to-t from-slate-900 to-blue-900">
             <div class="flex-1">
-              <p class="text-sm font-medium text-indigo-600">
+              <p class="text-sm font-medium text-emerald-400">
                 <a :href="post.category.href" class="hover:underline">
                   {{ post.category.name }}
                 </a>
               </p>
               <a :href="post.href" class="block mt-2">
-                <p class="text-xl font-semibold text-gray-900">
+                <p class="text-xl font-semibold text-gray-200">
                   {{ post.title }}
                 </p>
-                <p class="mt-3 text-base text-gray-500">
+                <p class="mt-3 text-base text-gray-200">
                   {{ post.description }}
                 </p>
               </a>
             </div>
-            <div class="mt-6 flex items-center">
+            <div class="mt-6 flex items-center border-t-2 border-emerald-400 pt-4">
               <div class="flex-shrink-0">
                 <a :href="post.author.href">
                   <span class="sr-only">{{ post.author.name }}</span>
@@ -37,12 +37,12 @@
                 </a>
               </div>
               <div class="ml-3">
-                <p class="text-sm font-medium text-gray-900">
+                <p class="text-sm font-medium text-emerald-400">
                   <a :href="post.author.href" class="hover:underline">
                     {{ post.author.name }}
                   </a>
                 </p>
-                <div class="flex space-x-1 text-sm text-gray-500">
+                <div class="flex space-x-1 text-sm text-gray-200">
                   <time :datetime="post.datetime">
                     {{ post.date }}
                   </time>
