@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-slate-900 overflow-hidden">
+  <div class="relative bg-slate-900 overflow-hidden w-full h-full">
     <div class="max-w-7xl mx-auto">
       <div
         class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 bg-gradient-to-r from-slate-900 to-blue-900"
@@ -104,6 +104,7 @@
                 <a
                   href="#"
                   class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                  @click="activeSignInModal"
                 >
                   Entrar
                 </a>

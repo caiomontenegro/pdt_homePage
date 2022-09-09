@@ -33,7 +33,7 @@ export default {
     CourseContainer,
     TeamContainer,
     BlogContainer,
-    CtaComponent
+    CtaComponent,
   }
 }
 </script>
