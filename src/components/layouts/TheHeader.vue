@@ -34,7 +34,7 @@
                   </a>
                   <div class="-mr-2 flex items-center md:hidden">
                     <PopoverButton
-                      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500"
                     >
                       <span class="sr-only">Abrir menu principal</span>
                       <MenuIcon class="h-6 w-6" aria-hidden="true" />
@@ -85,7 +85,7 @@
                   </div>
                   <div class="-mr-2">
                     <PopoverButton
-                      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-400"
                     >
                       <span class="sr-only">Fechar Menu Principal</span>
                       <XIcon class="h-6 w-6" aria-hidden="true" />
@@ -115,7 +115,7 @@
         <main
           class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
         >
-        <signin-form :class="{hidden: signinModal}"></signin-form>
+          <signin-form :class="{ hidden: signinModal }"></signin-form>
           <div class="sm:text-center lg:text-left text-gray-200">
             <h1
               class="text-4xl tracking-tight sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight"
@@ -149,7 +149,7 @@
               <div class="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="#"
-                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 border-2 duration-75"
+                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 hover:border-gray-800 border-2 duration-75"
                 >
                   Cursos Gratuitos
                 </a>
@@ -181,22 +181,21 @@ const navigation = [
 </script>
 
 <script>
-import SigninForm from '@/components/forms/SigninForm.vue'
+import SigninForm from "@/components/forms/SigninForm.vue";
 
 export default {
   components: {
-    SigninForm
+    SigninForm,
   },
   data() {
     return {
-      signinModal: true
-    }
+      signinModal: true,
+    };
   },
   methods: {
     activeSignInModal() {
-      this.signinModal = !this.signinModal
-      console.log(this.signinModal)
-    }
-  }
-}
+      this.signinModal = !this.signinModal;
+    },
+  },
+};
 </script>
