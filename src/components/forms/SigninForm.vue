@@ -1,6 +1,6 @@
 <template>
-  <div class="fixed right-[0px] top-[0px] h-screen w-screen backdrop-blur-sm backdrop-brightness-50 sm:pt-20">
-    <div class="sm:mx-auto sm:w-full sm:max-w-md hidden sm:block">
+  <div class="fixed right-[0px] top-[0px] h-screen w-screen backdrop-blur-sm backdrop-brightness-50 sm:pt-20" @click.stop="toggleModal">
+    <div class="sm:mx-auto sm:w-full sm:max-w-md hidden sm:block" >
       <img
         class="mx-auto h-12 w-auto"
         src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/logo_horiz_branco_full"
@@ -9,11 +9,10 @@
       <h2
         class="mt-6 text-center text-3xl tracking-tight font-bold text-gray-200"
       >
-        Entre com sua conta
-      </h2>
+        Entre com sua conta      </h2>
     </div>
     <div class="sm:mt-8 sm:mx-auto sm:w-full sm:max-w-md h-screen sm:h-auto">
-      <div class="bg-white py-40 sm:py-10 px-8 sm:ml-10 shadow sm:rounded-lg sm:px-10 sm:w-10/12 h-screen sm:h-auto">
+      <div class="bg-white py-40 sm:py-10 px-8 sm:ml-10 shadow sm:rounded-lg sm:px-10 sm:w-10/12 h-screen sm:h-auto" @click="toggleModal">
         <div class="space-y-8 mb-8 flex flex-col items-center sm:hidden">
           <img class="pr-6" src="https://res.cloudinary.com/portal-do-trader/image/upload/v1513012105/live/bs4-navbar-logo_p4tvfr.png" alt="Portal do Trader">
           <h1 class="text-xl font-bold text-blue-900 uppercase">Entre com sua conta</h1>
@@ -138,6 +137,10 @@
 
 <script>
 export default {
-  props
+  methods: {
+    toggleModal() {
+      this.$emit('toggle-modal')
+    }
+  }
 }
 </script>
