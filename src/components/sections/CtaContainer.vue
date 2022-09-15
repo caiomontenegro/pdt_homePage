@@ -40,23 +40,7 @@
             experiente, será mais que bem-vindo para aprender o que quiser sobre
             trading e Bolsa de Valores.
           </p>
-          <div
-            class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-1 text-white border-gray-100 p-4 md:flex-row md:px-6 lg:w-full shadow-xl mt-8 bg-gradient-to-tr from-blue-900 to-emerald-400"
-          >
-            <p class="font-lato italic md:order-1 lg:text-md">
-              "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!"
-            </p>
-            <div class="flex flex-col items-center md:mr-6">
-              <div
-                class="w-24 overflow-hidden rounded-full border border-2 border-gray-100"
-              >
-                <img src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02" alt="Foto de Lucas A.">
-              </div>
-              <span class="text-center font-lato font-bold lg:text-md">
-                Lucas A.
-              </span>
-            </div>
-          </div>
+          <testimony-card :studantPhoto="studant.photo" :studantName="studant.name" :testimony="studant.testimony"></testimony-card>
           <div class="mt-8">
             <div class="inline-flex rounded-md shadow">
               <a
@@ -73,6 +57,22 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import { ExternalLinkIcon } from "@heroicons/vue/solid";
+import TestimonyCard from "@/components/cards/TestimonyCard.vue"
+
+export default {
+  components: {
+    TestimonyCard
+  },
+  data() {
+    return {
+      studant: {
+        name: 'Lucas A.',
+        photo: 'https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02',
+        testimony: 'Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!'
+      },
+    }
+  }
+}
 </script>
