@@ -16,12 +16,12 @@
 import TheHeader from '@/components/layouts/TheHeader.vue'
 import ListContent from '@/components/layouts/ListContent.vue'
 import TheFooter from '@/components/layouts/TheFooter.vue'
-import CtaContainer from '@/components/layouts/CtaContainer.vue'
 import FaqContainer from '@/components/layouts/FaqContainer.vue'
 import CourseContainer from '@/components/layouts/CourseContainer.vue'
 import TeamContainer from '@/components/layouts/TeamContainer.vue'
 import BlogContainer from '@/components/layouts/BlogContainer.vue'
 import CtaComponent from '@/components/layouts/CtaComponent.vue'
+import CtaContainer from '@/components/sections/CtaContainer.vue'
 
 export default {
   components: {
