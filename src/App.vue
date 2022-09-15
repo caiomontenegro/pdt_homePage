@@ -1,5 +1,6 @@
 <template>
   <the-header></the-header>
+  <intro-component></intro-component>
   <cta-container></cta-container>
   <list-content></list-content>
   <team-container></team-container>
@@ -14,6 +15,7 @@
 
 <script>
 import TheHeader from '@/components/layouts/TheHeader.vue'
+import IntroComponent from '@/components/layouts/IntroComponent.vue'
 import ListContent from '@/components/layouts/ListContent.vue'
 import TheFooter from '@/components/layouts/TheFooter.vue'
 import FaqContainer from '@/components/layouts/FaqContainer.vue'
@@ -26,6 +28,7 @@ import CtaContainer from '@/components/sections/CtaContainer.vue'
 export default {
   components: {
     TheHeader,
+    IntroComponent,
     ListContent,
     CtaContainer,
     TheFooter,
