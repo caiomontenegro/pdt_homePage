@@ -12,7 +12,8 @@
         Entre com sua conta      </h2>
     </div>
     <div class="sm:mt-8 sm:mx-auto sm:w-full sm:max-w-md h-screen sm:h-auto">
-      <div class="bg-white py-40 sm:py-10 px-8 sm:ml-10 shadow sm:rounded-lg sm:px-10 sm:w-10/12 h-screen sm:h-auto" @click="toggleModal">
+      <div class="bg-white py-40 sm:py-10 px-8 sm:ml-10 shadow sm:rounded-lg w-auto sm:px-10 sm:w-10/12 h-screen sm:h-auto" @click="toggleModal">
+        <div class="flex justify-center"><button class="border-2 py-2 px-4 rounded-lg sm:hidden uppercase mb-4" @click.stop="toggleModal">voltar</button></div>
         <div class="space-y-8 mb-8 flex flex-col items-center sm:hidden">
           <img class="pr-6" src="https://res.cloudinary.com/portal-do-trader/image/upload/v1513012105/live/bs4-navbar-logo_p4tvfr.png" alt="Portal do Trader">
           <h1 class="text-xl font-bold text-blue-900 uppercase">Entre com sua conta</h1>

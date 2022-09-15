@@ -104,7 +104,7 @@
                 <a
                   href="#"
                   class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-                  
+                  @click="activeSignInModal"
                 >
                   Entrar
                 </a>
@@ -149,7 +149,7 @@
               <div class="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="#"
-                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 border-2 duration-75"
+                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 border-2 duration-75 hover:border-gray-800"
                 >
                   Cursos Gratuitos
                 </a>
