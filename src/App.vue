@@ -41,6 +41,7 @@ export default {
   },
   data() {
     return {
+      // For CTATestimony props:
       cta: [
         {
           id: 0,

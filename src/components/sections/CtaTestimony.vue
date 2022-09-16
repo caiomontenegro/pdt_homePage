@@ -26,7 +26,7 @@
             <p class="mt-3 text-xl text-gray-800">
               {{ description }}
             </p>
-            <testimony-card :studantPhoto="studant.photo" :studantName="studant.name" :testimony="studant.testimony"></testimony-card>
+            <testimony-card :studantPhoto="studant[0].photo" :studantName="studant[0].name" :testimony="studant[0].testimony"></testimony-card>
             <div class="mt-8">
               <div class="inline-flex rounded-md shadow">
                 <a
@@ -69,7 +69,7 @@
             <p class="mt-3 text-xl text-gray-800">
               {{ description }}
             </p>
-            <testimony-card :studantPhoto="studant.photo" :studantName="studant.name" :testimony="studant.testimony"></testimony-card>
+            <testimony-card :studantPhoto="studant[1].photo" :studantName="studant[1].name" :testimony="studant[1].testimony"></testimony-card>
             <div class="mt-8">
               <div class="inline-flex rounded-md shadow">
                 <a
@@ -127,11 +127,18 @@ export default {
   },
   data() {
     return {
-      studant: {
+      studant: [
+        {
         name: 'Lucas A.',
         photo: 'https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02',
         testimony: 'Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A calma e paciência da equipe foram fundamentais para eu atingir minha consistência. Já conhecia o mercado e tinha perdido muito! Com vocês isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes amigos... Obrigado por tudo!'
-      },
+        },
+        {
+        name: 'Eduardo G.',
+        photo: 'https://res.cloudinary.com/portal-do-trader/image/upload/q_auto,f_auto/pdt-home/testimonial-pic-01',
+        testimony: 'Muito obrigado por ceder estes materiais tão valiosos de forma gratuita. Sempre que preciso renovar as energias e/ou tirar dúvidas recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou muito bem tratado, minhas dúvidas são esclarecidas e tudo corre muito bem. Muito obrigado mesmo PORTAL!'
+        },
+      ]
     }
   },
 }
