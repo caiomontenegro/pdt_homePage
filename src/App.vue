@@ -4,6 +4,7 @@
   <cta-testimony :title="cta[0].title" :subTitle="cta[0].subTitle" :description="cta[0].description" :image="cta[0].image"></cta-testimony>
   <cta-testimony :title="cta[1].title" :subTitle="cta[1].subTitle" :description="cta[1].description" :image="cta[1].image" :direction="cta[1].direction"></cta-testimony>
   <list-content></list-content>
+  <feature-list></feature-list>
   <team-container></team-container>
   <cta-component></cta-component>
   <course-container></course-container>
@@ -25,6 +26,7 @@ import TeamContainer from '@/components/layouts/TeamContainer.vue'
 import BlogContainer from '@/components/layouts/BlogContainer.vue'
 import CtaComponent from '@/components/layouts/CtaComponent.vue'
 import CtaTestimony from '@/components/sections/CtaTestimony.vue'
+import FeatureList from '@/components/layouts/FeatureList.vue'
 
 export default {
   components: {
@@ -38,6 +40,7 @@ export default {
     TeamContainer,
     BlogContainer,
     CtaComponent,
+    FeatureList
   },
   data() {
     return {
