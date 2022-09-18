@@ -1,5 +1,8 @@
 <template>
-  <footer class="bg-[length:300%] bg-[url('https://res.cloudinary.com/portal-do-trader/image/fetch/v1661518893/https://res.cloudinary.com/portal-do-trader/image/upload/f_auto%2Ct_ghost-blog-image/v1/blog-images/2022/08/o-que-e-robo-arbitragem-bitcoin.jpg')]" aria-labelledby="footer-heading">
+  <footer
+    class="bg-[length:300%] bg-[url('https://res.cloudinary.com/portal-do-trader/image/fetch/v1661518893/https://res.cloudinary.com/portal-do-trader/image/upload/f_auto%2Ct_ghost-blog-image/v1/blog-images/2022/08/o-que-e-robo-arbitragem-bitcoin.jpg')]"
+    aria-labelledby="footer-heading"
+  >
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -91,25 +94,62 @@
         </div>
       </div>
       <div
-        class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between"
+      class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between"
       >
-        <div class="flex space-x-6 md:order-2">
-          <a
-            v-for="item in navigation.social"
-            :key="item.name"
-            :href="item.href"
-            class="text-gray-400 hover:text-gray-200"
-          >
-            <span class="sr-only">{{ item.name }}</span>
-            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-          </a>
-        </div>
-        <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020 Workflow, Inc. All rights reserved.
-        </p>
-      </div>
+      <div class="flex space-x-6 md:order-2">
+        <a
+        v-for="item in navigation.social"
+        :key="item.name"
+        :href="item.href"
+        class="text-gray-400 hover:text-gray-200"
+        >
+        <span class="sr-only">{{ item.name }}</span>
+        <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+      </a>
     </div>
-  </footer>
+    <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+      © 2021 Portal do Trader. Todos os direitos reservados.
+    </p>
+  </div>
+  <div
+    class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between"
+  >
+    <div class="text-gray-400 text-center flex flex-col space-y-4 mt-6">
+      <p>
+        Este canal tem propósito exclusivamente educacional e nenhum
+        conteúdo apresentado nos vídeos ou chat deve ser considerado,
+        entendido, utilizado ou confundido com qualquer modalidade de
+        recomendação, consultoria ou análise de investimento. Eventuais
+        operações mostradas nos vídeos só são apresentadas após serem
+        finalizadas, ou seja, é impossível que sejam utilizadas para
+        auxiliar ou influenciar investidores no processo de tomada de
+        decisão de investimento. O propósito das discussões é unicamente
+        educar interessados em relação às técnicas apresentadas nos cursos e
+        treinamentos deste site. Investimentos em renda variável possuem
+        riscos e ganhos passados não garantem de nenhuma forma ganhos
+        futuros. A decisão final e responsabilidade sobre cada operação é de
+        cada investidor, devendo ser tomada individualmente, nos termos da
+        legislação e regulamentação aplicáveis.
+      </p>
+      <p>
+        Você poderá, a qualquer momento,
+        <a href="#" class="text-blue-600"
+          >excluir sua conta e todas as informações que temos a seu
+          respeito</a
+        >
+        em nosso site. Sua experiência de uso poderá ser comprometida
+        permanentemente.
+      </p>
+      <p>
+        Ao usar este site, você concorda com a
+        <a href="" class="text-blue-600"
+          >Política de privacidade do Portal do Trader</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+</footer>
 </template>
 
 <script setup>
