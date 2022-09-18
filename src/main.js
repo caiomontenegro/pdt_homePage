@@ -15,9 +15,10 @@ import { faSquareFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons'
 library.add(faHatWizard, faSquareFacebook, faGoogle)
 
 // Components
-import ListContent from '@/components/layouts/ListContent.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import RectangularButton from '@/components/UI/RectangularButton.vue'
 
+app.component('rectangular-button', RectangularButton)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')

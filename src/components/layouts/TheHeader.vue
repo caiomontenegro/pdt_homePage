@@ -47,7 +47,7 @@
                   v-for="item in navigation"
                   :key="item.name"
                   :href="item.href"
-                  class="font-medium text-gray-200 hover:text-gray-400"
+                  class="font-medium text-gray-200 hover:text-yellow-400"
                   >{{ item.name }}</a
                 >
                 <a
@@ -136,24 +136,10 @@
               operar na Bolsa com mais segurança.
             </p>
             <div
-              class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
+              class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start space-x-4"
             >
-              <div class="rounded-md shadow">
-                <a
-                  href="#"
-                  class="w-full flex items-center justify-center px-8 py-3 border  text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 hover:border-gray-800 border-2 duration-75"
-                >
-                  Registrar-se
-                </a>
-              </div>
-              <div class="mt-3 sm:mt-0 sm:ml-3">
-                <a
-                  href="#"
-                  class="w-full flex items-center justify-center px-8 py-3 border  text-base font-medium rounded-md text-white bg-gray-800 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 border-solid border-emerald-400 border-2 duration-75 hover:border-gray-800"
-                >
-                  Cursos Gratuitos
-                </a>
-              </div>
+              <rectangular-button title="Cadastre-se"></rectangular-button>
+              <rectangular-button title="Começar Cursos Grátis"></rectangular-button>
             </div>
           </div>
         </main>
