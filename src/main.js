@@ -17,8 +17,10 @@ library.add(faHatWizard, faSquareFacebook, faGoogle)
 // Components
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import RectangularButton from '@/components/UI/RectangularButton.vue'
+import DarkRectangularButton from '@/components/UI/DarkRectangularButton.vue'
 
 app.component('rectangular-button', RectangularButton)
+app.component('dark-rectangular-button', DarkRectangularButton)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')

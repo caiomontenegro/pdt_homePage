@@ -28,14 +28,7 @@
             </p>
             <testimony-card :studantPhoto="studant[0].photo" :studantName="studant[0].name" :testimony="studant[0].testimony"></testimony-card>
             <div class="mt-8">
-              <div class="inline-flex rounded-md shadow">
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center px-5 py-3 border-2 border-gray-700 bg-blue-900 text-base font-medium rounded-md text-gray-200 hover:bg-gray-800 hover:border-indigo-600 duration-300"
-                >
-                  Visite nossa sala ao vivo
-                </a>
-              </div>
+              <dark-rectangular-button title="Junte-se a nós."></dark-rectangular-button>
             </div>
           </div>
         </div>
@@ -71,14 +64,7 @@
             </p>
             <testimony-card :studantPhoto="studant[1].photo" :studantName="studant[1].name" :testimony="studant[1].testimony"></testimony-card>
             <div class="mt-8">
-              <div class="inline-flex rounded-md shadow">
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center px-5 py-3 border-2 border-gray-700 bg-blue-900 text-base font-medium rounded-md text-gray-200 hover:bg-gray-800 hover:border-indigo-600 duration-300"
-                >
-                  Visite nossa sala ao vivo
-                </a>
-              </div>
+              <dark-rectangular-button title="Inicie aqui sua jornada."></dark-rectangular-button>
             </div>
           </div>
         </div>
@@ -90,11 +76,13 @@
 <script>
 import { ExternalLinkIcon } from "@heroicons/vue/solid";
 import TestimonyCard from "@/components/cards/TestimonyCard.vue"
+import DarkRectangularButton from "../UI/DarkRectangularButton.vue";
 
 export default {
   components: {
-    TestimonyCard
-  },
+    TestimonyCard,
+    DarkRectangularButton
+},
   props: {
     title: {
       type: String,
