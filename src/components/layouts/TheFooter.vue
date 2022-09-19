@@ -12,7 +12,7 @@
               <h3 class="text-base font-medium text-emerald-400">
                 Portal do Trader
               </h3>
-              <ul role="list" class="mt-4 space-y-4">
+              <ul role="list" class="mt-4 space-y-1 ">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
@@ -25,7 +25,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <h3 class="text-base font-medium text-emerald-400">Aprenda</h3>
-              <ul role="list" class="mt-4 space-y-4">
+              <ul role="list" class="mt-4 space-y-1">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
@@ -40,7 +40,7 @@
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-base font-medium text-emerald-400">Plano TNT</h3>
-              <ul role="list" class="mt-4 space-y-4">
+              <ul role="list" class="mt-4 space-y-1">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a
                     :href="item.href"
@@ -53,7 +53,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <h3 class="text-base font-medium text-emerald-400">Blog</h3>
-              <ul role="list" class="mt-4 space-y-4">
+              <ul role="list" class="mt-4 space-y-1">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
@@ -167,18 +167,53 @@ const navigation = {
     { name: "Price Action", href: "#" },
     { name: "Análise Ténica", href: "#" },
     { name: "Investindo em ações", href: "#" },
+    { name: "O que os Traders Operam na Bolsa", href:"#"},
+    { name: "Comece a Operar", href:"#"},
+    { name: "Minicontratos", href:"#"},
+    { name: "MetaTrader", href:"#"},
+    { name: "Desafio Trader: Práticas para a consistência", href:"#"},
+    { name: "Introduçao ás opçoes", href:"#"},
+    { name: "Como Traders Profissionais Operam", href:"#"},
+    { name: "Plano de Trade", href:"#"},
+    { name: "Psicologia para Traders", href:"#"},
+    { name: "Tape Reading", href:"#"},
+    { name: "Payroll Bootstrap", href:"#"},
+    { name: "Scalp Trade Bootstrap", href:"#"},
+    { name: "Swing Trade Bootstrap", href:"#"},
+    { name: "Day Trade Bootstrap", href:"#"},
+    { name: "Erros e Dúvidas de Traders", href:"#"},
   ],
   company: [
     { name: "Começando do zero", href: "#" },
     { name: "Trader Profissional", href: "#" },
     { name: "Estrutura do mercado", href: "#" },
     { name: "Análise Técnica", href: "#" },
+    { name: "Análise Técnica na prática", href:"#"},
+    { name: "Análise fundamentalista", href:"#"},
     { name: "Tape Reading", href: "#" },
+    { name: "Tape Reading na prática", href:"#"},
+    { name: "Opçoes e Operaçoes Estruturadas", href:"#"},
+    { name: "Gesao de risco", href:"#"},
+    { name: "Trading Plan", href:"#"},
+    { name: "Psicologia do Trading", href:"#"},
+    { name: "Forex", href:"#"},
   ],
   legal: [
     { name: "Ações", href: "#" },
+    { name: "Análise Fundamentalista", href:"#"},
+    { name: "Análsie Técnica", href:"#"},
+    { name: "Contratos Futuros", href:"#"},
     { name: "Criptomoedas", href: "#" },
-    { name: "Forex", href: "#" },
+    { name: "Day Trade", href:"#"},
+    { name: "Gestao de Risco", href: "#" },
+    { name: "Opçoes", href:"#"},
+    { name: "Price Action", href:"#"},
+    { name: "Psicologia do Trading", href:"#"},
+    { name: "Swing Trade", href:"#"},
+    { name: "Tape Reading", href:"#"},
+    { name: "Trader Iniciante", href:"#"},
+    { name: "Trader Profissional", href:"#"},
+    { name: "Trading Plan", href:"#"},
   ],
   social: [
     {
